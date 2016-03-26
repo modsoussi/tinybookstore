@@ -1,0 +1,2 @@
+Concurrent buys while running restock in the server with a period of 5s
+Time per request: 0.432963962078

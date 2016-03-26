@@ -1,0 +1,14 @@
+TinyBookstore. 
+(c) 2016. modsoussi. Danny Smith.
+
+---------------------------------
+
+To compile the source files, simply run make. Classpath needs to indicate where the jar files needed are.
+To run the Server, run java server port_num.
+The name of the database is bookstore.db. If it doesn't exist, the program will create one and populate it.
+Once the Server is running, it'll have an interactive terminal where if you type:
+     - log : a log of all of the purchases that took place since the server was started are displayed.
+     - restock time_interval amount : will start a thread that increments the stock of each book in the db 
+       	       by amount every time_interval amount of time.
+     - update item_num price : sets price of item_num to price.
+     

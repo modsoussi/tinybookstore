@@ -1,0 +1,2 @@
+When performing concurrent buy requests without running restock in the background in the server:
+Time per request: 0.423554899693
